@@ -18,3 +18,11 @@ else if (count === 20) {
  alert("Votre publication Instagram a gagné 20 abonnés ! Continuez comme ça !");
     }
 }
+
+function resetCount(){
+count = 0;
+displayCount();
+alert("Votre compteur a été réinitialisé");
+}
+
+resetCount()
